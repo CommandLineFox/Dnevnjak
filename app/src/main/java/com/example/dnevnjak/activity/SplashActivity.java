@@ -1,4 +1,4 @@
-package com.example.dnevnjak.load;
+package com.example.dnevnjak.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import com.example.dnevnjak.R;
-import com.example.dnevnjak.main.MainActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -22,7 +21,7 @@ public class SplashActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                Intent intent = new Intent(SplashActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }

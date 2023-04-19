@@ -1,4 +1,4 @@
-package com.example.dnevnjak.main;
+package com.example.dnevnjak.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -10,13 +10,13 @@ import com.example.dnevnjak.fragments.CalendarFragment;
 import com.example.dnevnjak.fragments.PlanFragment;
 import com.example.dnevnjak.fragments.ProfileFragment;
 
-public class PageAdapter extends FragmentPagerAdapter {
+public class MainAdapter extends FragmentPagerAdapter {
     private static final int fragment1 = 0;
     private static final int fragment2 = 1;
     private static final int fragment3 = 2;
     private final int itemCount = 3;
 
-    public PageAdapter(@NonNull FragmentManager fm) {
+    public MainAdapter(@NonNull FragmentManager fm) {
         super(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
     }
 
