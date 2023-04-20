@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Dnevnjak</string>
-    <string name="e_mail">E-mail</string>
-    <string name="username">Username</string>
-    <string name="passowrd">Passowrd</string>
-    <string name="login">Login</string>
-    <string name="logo">logo</string>
-    <string name="profile_picture">profile picture</string>
-</resources>
