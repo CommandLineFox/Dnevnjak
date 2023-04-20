@@ -5,4 +5,5 @@
     <string name="passowrd">Passowrd</string>
     <string name="login">Login</string>
     <string name="logo">logo</string>
+    <string name="profile_picture">profile picture</string>
 </resources>
