@@ -7,4 +7,15 @@
     <string name="logo">logo</string>
     <string name="profile_picture">profile picture</string>
     <string name="username_dummy_text">Username_dummy_text</string>
+    <string name="email_dummy_text">Email_dummy_text</string>
+    <string name="izmeni_lozinku">Izmeni lozinku</string>
+    <string name="izloguj_se">Izloguj se</string>
+    <string name="stari_password">Stari password</string>
+    <string name="novi_password">Novi password</string>
+    <string name="promeni_lozinku">Promeni lozinku</string>
+    <string name="odustani">Odustani</string>
+    <string name="prikazi_ranije_obaveze">Prikazi ranije obaveze</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="izmeni">Izmeni</string>
+    <string name="obri_i">Obriši</string>
 </resources>

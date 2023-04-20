@@ -103,7 +103,7 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(this, "Morate uneti validnu mejl adresu", Toast.LENGTH_SHORT).show();
             return false;
         } else if (password.length() < 5) {
-            Toast.makeText(this, "Password mora da bude duži od 5", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Password mora da bude duži od 4", Toast.LENGTH_LONG).show();
             return false;
         } else if (password.equals(password.toLowerCase())) {
             Toast.makeText(this, "Password mora da ima bar jedno veliko slovo", Toast.LENGTH_LONG).show();
